@@ -3,13 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Homepage - Recipes</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/avocado_and_citrus_salad.html">Avocado and Citrus Salad</a></li>
-            <li><a href="recipes/quinoa_bowl_with_pistachios.html">Strawberry-Banana Quinoa Bowl with Pistachios</a></li>
-            <li><a href="recipes/kale_and_black_bean_soup.html">Kale and Black Bean Soup</a></li>
-        </ul>
+        <div class="table">
+            <div class="column">
+                <a href="recipes/avocado_and_citrus_salad.html" target="_blank"><img class="home" src="images/avocado_and_citrus_salad.png" alt="Avocado and citrus salad"/></a>
+                <p id="recipename">Avocado and Citrus Salad</p>
+            </div>
+            <div class="column">
+                <a href="recipes/quinoa_bowl_with_pistachios.html" target="_blank"><img class="home" src="images/quinoa_bowl_with_strawberries.png" alt="Quinoa bowl with strawberries"/></a>
+                <p id="recipename">Strawberry-Banana Quinoa Bowl <br> with Pistachios</p>
+            </div>
+            <div class="column">
+                <a href="recipes/kale_and_black_bean_soup.html" target="blank"><img class="home" src="images/kale_bean_black_soup.png" alt="Kale and black bean soup"/></a>
+                <p id="recipename">Kale and Black Bean Soup</p>
+            </div>
+        </div>
     </body>
 </html>

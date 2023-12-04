@@ -1,0 +1,43 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(243 244 246);
+}
+
+h1{
+    text-align: center;
+}
+
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.row{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.column{
+    display:table-cell;
+    background-color: rgb(216 216 218);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+img.home{
+    width: 60%;
+    height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#recipename {
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(216 216 218);
+}
+
